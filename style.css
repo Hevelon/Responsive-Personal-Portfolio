@@ -242,7 +242,7 @@ section.landing .profile-area .outer-circle i {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 1rem var(--color-primary);
+    box-shadow: 0 0 0.8rem var(--color-primary-light);
 }
 
 section.landing .profile-area .outer-circle i:nth-child(1) {
@@ -271,4 +271,5 @@ section.landing .profile-area .inner-circle {
     height: 18rem;
     border-radius: 50%;
     overflow: hidden;
+    transform: rotate(10deg);
 }
